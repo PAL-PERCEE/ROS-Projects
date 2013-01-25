@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g     -pthread CMakeFiles/clientknx.dir/src/knxAPI_client.o  -o ../bin/clientknx -rdynamic -L/opt/ros/fuerte/lib -L/usr/local/lib -lroscpp -lrostime -lrosconsole -lroscpp_serialization -lxmlrpcpp -Wl,-rpath,/opt/ros/fuerte/lib:/usr/local/lib 

@@ -1,0 +1,6 @@
+string action
+string target
+int64 value
+---
+string etat
+string xml

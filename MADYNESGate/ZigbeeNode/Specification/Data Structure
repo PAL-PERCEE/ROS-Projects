@@ -1,0 +1,16 @@
+DATA Structure of Nancy_ZigBee_GATE
+
+ROS topic specification are available on : Nancy-PublicGate-ZigBee/GATE_ZigBee/msg/ZigbeeFrame.msg
+
+>root@rosserv:~$ rosmsg show ZigbeeFrame
+
+[GATE_ZigBee/ZigbeeFrame]:
+uint32 seq		// Frame ID
+time stamp		// TimeStampt
+string capid		// sensor ID
+string caplocation	// Sensor location ID
+string sensvals		// Sensors values, Exemple:  Var01#1#Var6#23#Var08#1.95 
+
+
+To compile the Gate project you need to include ZigbeeFrame.h
+#include "GATE_ZigBee/ZigbeeFrame.h"

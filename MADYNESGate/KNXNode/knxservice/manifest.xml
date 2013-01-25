@@ -1,0 +1,19 @@
+<package>
+  <description brief="knxservice">
+
+     knxservice
+
+  </description>
+  <author>CHEHAIDER</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/knxservice</url>
+  
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+ <export>
+  <cpp cflags="-I/usr/local/include -I/usr/include" flfags="-L/usr/local/lib -lcurlpp -lstdc++" />
+ </export>
+</package>
+
+

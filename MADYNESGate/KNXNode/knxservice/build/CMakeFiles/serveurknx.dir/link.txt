@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g     -pthread CMakeFiles/serveurknx.dir/src/knx_server.o  -o ../bin/serveurknx -rdynamic -L/opt/ros/fuerte/lib -L/usr/local/lib -lroscpp -lrostime -lrosconsole -lroscpp_serialization -lxmlrpcpp -lcurl -lcurlpp -lxml2 -lroscpp -lrostime -lrosconsole -lroscpp_serialization -lxmlrpcpp -Wl,-rpath,/opt/ros/fuerte/lib:/usr/local/lib 
